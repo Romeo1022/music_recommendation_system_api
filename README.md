@@ -10,6 +10,7 @@ A REST API that provides music recommendations based on user preferences.
 - MySQL
 - JWT Authentication
 - Postman
+
 ## How to Run
 1. Open the project folder in VS Code.
 2. Navigate to the music-recommendation-system folder.
@@ -17,3 +18,12 @@ A REST API that provides music recommendations based on user preferences.
 4. Configure the database and environment variables.
 5. Run the server using the project's start command.
 6. Test the API using Postman.git add 
+
+## System Features
+
+- User registration and login
+- JWT authentication
+- Music and artist management
+- User preference management
+- Music recommendations
+- REST API integration
