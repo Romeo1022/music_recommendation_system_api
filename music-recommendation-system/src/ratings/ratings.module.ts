@@ -1,0 +1,1 @@
+import {Module} from '@nestjs/common';import {TypeOrmModule} from '@nestjs/typeorm';import {Rating} from './rating.entity';import {Song} from '../songs/song.entity';import {RatingsController} from './ratings.controller';@Module({imports:[TypeOrmModule.forFeature([Rating,Song])],controllers:[RatingsController]})export class RatingsModule {}
